@@ -8,7 +8,7 @@
 end
  def countdown_with_sleep(runtime)#write your code here
     while runtime > 0 
-      sleep (1.second)
+      sleep (1.secs)
       runtime -= 1
   end
 end 
